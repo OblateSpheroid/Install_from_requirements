@@ -9,5 +9,4 @@ install.needed <- function(){
   for (i in 1:length(to_add)) install.packages(to_add[i], repos=repo)
 }
 
-#if(!interactive()) install.needed()
-if(!interactive())(print(paste0("Will install libraries in ",file))) else cat("Run install.needed() to install\n")
+if(!interactive())(install.needed()) else cat("Run install.needed() to install\n")
