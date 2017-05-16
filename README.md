@@ -1,4 +1,4 @@
-# Install_from_requirments
+# Install_from_requirements
 A simple R function that works like Python's 'pip install -r requirements.txt'
 
 ### From command line
